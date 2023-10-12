@@ -1,0 +1,90 @@
+body {
+    background: url(./black.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: url(./black.jpeg);
+    color: aliceblue;
+}
+
+
+.main {
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 25%; */
+    padding: 0.5em;
+    
+  
+   
+}
+
+.border {
+ 
+    border: 2px solid transparent; /* Start with a transparent border */
+    border-radius: 10px;
+    animation: glow 2s linear infinite; /* Apply the glow animation */
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px rgba(0, 0, 255, 0.8);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(0, 0, 255, 0.8);
+    }
+  }
+img{
+    border-radius: 20px;
+
+}
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    padding: 10px;
+    background-color: #4beb2b;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    transition: opacity 0.5s;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+
+input{
+    width: 250px;
+   
+    padding: 0.5em;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+}
+#button{
+   
+    color: aliceblue;
+    font-size: 1.5em;
+    border: 2px solid white;
+    background-color: rgb(85, 196, 240);
+    width: 250px;
+}
+#google{
+    width: 250px;
+    padding: 0.5em;
+    background-color: black;
+    border: 2px solid blue;
+    color:blue;
+    font-size: 1em;
+
+}
+

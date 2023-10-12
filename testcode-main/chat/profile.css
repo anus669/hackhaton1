@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./black.jpeg);
+    background-size: cover;
+}
+
+
+
+
+.nav{
+    display: flex;
+width: 100%;
+flex-direction: column;
+border: 2px solid green;
+color: aliceblue;
+}
+.text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: aqua;
+    color: black;
+}
+.text>button{
+    border-radius: 20px ;
+    height: 2em;
+}
+.section{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+border: 2px solid green;
+width: 50%;
+padding: 1em;
+margin: 1em;
+justify-content: end;
+
+}
+.image{
+    width: 50%;
+    border: 2px solid red;
+    height: 200px;
+color: aliceblue;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+    
+}
+.password>input{
+    margin: 1em;
+    width: 250px;
+}
+.password{
+    display:flex;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    background-color: blue;
+    color: aliceblue;
+}
+.updateimage{
+   
+}
+
+.upload{
+    display: flex;
+}
+.foter{
+     color: white;
+    /*font-size: 3em;
+   margin-top: 90vh;
+    position: fixed;
+    background-color: aqua; */
+    background: url(./black.jpeg);
+    /* position:fixed; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3em;
+    /* position: fixed;
+    margin-bottom: 9em; */
+}

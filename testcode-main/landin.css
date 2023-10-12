@@ -1,0 +1,57 @@
+.main {
+ width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 25%; */
+    padding: 0.5em;
+    background-color: rgb(155, 211, 193);
+  margin: 0;
+   
+}
+
+
+.border {
+ 
+  border: 2px solid transparent; /* Start with a transparent border */
+  border-radius: 10px;
+  animation: glow 2s linear infinite; /* Apply the glow animation */
+
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.8);
+  }
+}
+body{
+    background-color: rgba(128, 170, 173, 0.676);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+button{
+    background:transparent;
+    color:white;
+    padding: 1em;
+    width: 80px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: blue;
+}
